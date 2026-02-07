@@ -1,0 +1,8 @@
+﻿{
+  "name": "orphan-ai-quantum",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm --prefix backend install && npx concurrently \"npm --prefix backend start\" \"npx http-server frontend -p 5500 -c-1\""
+  }
+}
